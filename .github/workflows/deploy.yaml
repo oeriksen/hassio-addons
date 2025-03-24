@@ -26,7 +26,7 @@ jobs:
       - name: Fetch latest changes
         run: |
           git config pull.rebase false
-          git pull origin master || true
+          git pull origin main || true
       - name: Update path_filters
         run: |
           # Init
@@ -55,7 +55,7 @@ jobs:
         uses: actions-js/push@v1.5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: main
           force: true
           message: "Make scripts executable"
 
@@ -105,7 +105,7 @@ jobs:
       - name: Fetch latest changes
         run: |
           git config pull.rebase false
-          git pull origin master || true
+          git pull origin main || true
       - name: Make scripts executable
         run: |
           echo "Starting"
@@ -116,7 +116,7 @@ jobs:
         uses: actions-js/push@v1.5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: main
           force: true
           message: "Make scripts executable"
 
