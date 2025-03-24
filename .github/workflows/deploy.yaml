@@ -209,7 +209,7 @@ jobs:
         with:
           user: oeriksen
           type: container
-          keep: 1
+          keep: 0
           names: |
             ${{ matrix.addon }}-${{ matrix.arch }}
 
