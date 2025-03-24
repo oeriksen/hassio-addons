@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.9.1
+
+- Disabled Start on boot
+
 ## 1.9.0
 
 - Moved to github

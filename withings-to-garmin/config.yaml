@@ -1,9 +1,10 @@
 name: "Withings to Garmin sync"
 description: "Sync data from Withings to Garmin Connect"
-version: "1.9.0"
+version: "1.9.1"
 url: https://github.com/oeriksen/hassio-addons/tree/main/withings-to-garmin
 slug: withings-to-garmin
 image: ghcr.io/oeriksen/withings-to-garmin-{arch}
+boot: manual_only
 init: false
 arch:
   - aarch64
@@ -12,4 +13,3 @@ arch:
   - armv7
 map:
   - addon_config:rw
-  
