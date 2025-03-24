@@ -1,5 +1,5 @@
 # Home Assistant Community Add-on: Withings to Garmin
-![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
+![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield]
 ![Project Maintenance][maintenance-shield]
 
 Sync Withings data to Garmin Connect add-on for Homeassistant OS
@@ -7,6 +7,7 @@ Sync Withings data to Garmin Connect add-on for Homeassistant OS
 ## About
 
 This is mainly for my own use. Want to try it out? Contact me. Won't work without custom configuration and setup. If any interest I might change that in the future.
+Based on https://github.com/jaroslawhartman/withings-sync
 
 ## Installation
 
@@ -58,6 +59,5 @@ SOFTWARE.
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [oeriksen]: https://github.com/oeriksen/
 [issue]: https://github.com/oeriksen/hassio-addons/issues
