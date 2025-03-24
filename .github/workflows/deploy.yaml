@@ -8,11 +8,11 @@ env:
   BUILD_ARGS: "--test"
 
 on:
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - "**/config.*"
+  push:
+    branches:
+      - main
+    paths:
+      - "**/config.*"
   workflow_call:
   workflow_dispatch:
 
